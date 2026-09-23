@@ -19,116 +19,1099 @@
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:1.00000,1.00000,1.00000,1.00000"
-              }
-            }
-          ],
-          "glass": true,
-          "image-name": "section.svg",
-          "name": "cap",
-          "opacity": 0
-        }
-      ],
-      "lighting": "individual",
-      "name": "Specular",
-      "shadow": {
-        "kind": "neutral",
-        "opacity": 0.5
-      },
-      "specular": true,
-      "specular-highlight-placement": "inside"
-    },
-    {
-      "layers": [
-        {
-          "fill-specializations": [
-            {
-              "value": {
                 "linear-gradient": [
-                  "display-p3:0.92000,0.94000,1.00000,1.00000",
-                  "display-p3:0.50000,0.55000,0.72000,1.00000"
+                  "display-p3:0.34000,0.38000,0.50000,1.00000",
+                  "display-p3:0.70000,0.74000,0.84000,0.18000"
                 ],
                 "orientation": {
                   "start": {
-                    "x": 0.5,
-                    "y": 0
+                    "x": 0.85,
+                    "y": 0.2
                   },
                   "stop": {
-                    "x": 0.5,
-                    "y": 1
+                    "x": 0.35,
+                    "y": 0.9
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.94000,0.96000,1.00000,1.00000",
+                  "display-p3:0.70000,0.74000,0.84000,0.18000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.85,
+                    "y": 0.2
+                  },
+                  "stop": {
+                    "x": 0.35,
+                    "y": 0.9
                   }
                 }
               }
             }
           ],
-          "glass": true,
-          "image-name": "s-down.svg",
-          "name": "s"
-        }
-      ],
-      "lighting": "individual",
-      "name": "S lower",
-      "refractivity": {
-        "depth": 0.45,
-        "enabled": true,
-        "strength": 0.35
-      },
-      "shadow": {
-        "kind": "layer-color",
-        "opacity": 0.5
-      },
-      "specular": true,
-      "specular-highlight-placement": "inside",
-      "translucency": {
-        "enabled": true,
-        "value": 0.25
-      }
-    },
-    {
-      "layers": [
+          "glass": false,
+          "image-name": "inscription.svg",
+          "name": "inscription"
+        },
         {
           "fill-specializations": [
             {
               "value": {
                 "linear-gradient": [
-                  "display-p3:0.97000,0.98000,1.00000,1.00000",
-                  "display-p3:0.58000,0.63000,0.78000,1.00000"
+                  "display-p3:0.34000,0.38000,0.50000,1.00000",
+                  "display-p3:0.70000,0.74000,0.84000,0.18000"
                 ],
                 "orientation": {
                   "start": {
-                    "x": 0.5,
-                    "y": 0
+                    "x": 0.85,
+                    "y": 0.2
                   },
                   "stop": {
-                    "x": 0.5,
-                    "y": 1
+                    "x": 0.35,
+                    "y": 0.9
+                  }
+                }
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.94000,0.96000,1.00000,1.00000",
+                  "display-p3:0.70000,0.74000,0.84000,0.18000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.85,
+                    "y": 0.2
+                  },
+                  "stop": {
+                    "x": 0.35,
+                    "y": 0.9
                   }
                 }
               }
             }
           ],
-          "glass": true,
-          "image-name": "s-up.svg",
-          "name": "s"
+          "glass": false,
+          "image-name": "inscription-behind.svg",
+          "name": "inscription behind",
+          "opacity": 0.28
+        },
+        {
+          "blend-mode-specializations": [
+            {
+              "value": "normal"
+            },
+            {
+              "appearance": "dark",
+              "value": "plus-lighter"
+            }
+          ],
+          "glass": false,
+          "image-name": "glow.png",
+          "name": "glow",
+          "opacity-specializations": [
+            {
+              "value": 0.45
+            },
+            {
+              "appearance": "dark",
+              "value": 0.24750000000000003
+            }
+          ]
         }
       ],
       "lighting": "individual",
-      "name": "S upper",
-      "refractivity": {
-        "depth": 0.45,
-        "enabled": true,
-        "strength": 0.35
-      },
+      "name": "Glow",
+      "opacity": 1.0,
       "shadow": {
-        "kind": "layer-color",
-        "opacity": 0.5
+        "kind": "none",
+        "opacity": 0
       },
-      "specular": true,
-      "specular-highlight-placement": "inside",
-      "translucency": {
+      "specular": false
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.80000,0.82000,0.88000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.90000,0.92000,0.98000,1.00000"
+              }
+            }
+          ],
+          "glass": false,
+          "image-name": "frame.svg",
+          "name": "frame",
+          "opacity": 0.8
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.80000,0.82000,0.88000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.90000,0.92000,0.98000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "cover-edge.svg",
+          "name": "gold edge"
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.62000,0.64000,0.70000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.26000,0.28000,0.34000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "front-cover.svg",
+          "name": "cover",
+          "opacity": 0.88
+        }
+      ],
+      "lighting": "individual",
+      "name": "Front cover",
+      "opacity": 1.0,
+      "refractivity": {
+        "depth": 0.35,
         "enabled": true,
-        "value": 0.25
-      }
+        "strength": 0.3
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.5
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.4
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.45
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.80000,0.82000,0.88000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.90000,0.92000,0.98000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "magic-edge.svg",
+          "name": "edge",
+          "opacity": 0.7
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "magic.svg",
+          "name": "page"
+        }
+      ],
+      "lighting": "individual",
+      "name": "Magic page",
+      "opacity": 1.0,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.35
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.3
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.35
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p01.svg",
+          "name": "page 2"
+        }
+      ],
+      "lighting": "individual",
+      "name": "Pages 2\u20132",
+      "opacity": 0.95,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.12
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.15
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.35
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p02.svg",
+          "name": "page 3"
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p03.svg",
+          "name": "page 4"
+        }
+      ],
+      "lighting": "individual",
+      "name": "Pages 3\u20134",
+      "opacity": 0.95,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.12
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.15
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.35
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p04.svg",
+          "name": "page 5"
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p05.svg",
+          "name": "page 6"
+        }
+      ],
+      "lighting": "individual",
+      "name": "Pages 5\u20136",
+      "opacity": 0.95,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.12
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.15
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.35
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p06.svg",
+          "name": "page 7"
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p07.svg",
+          "name": "page 8"
+        }
+      ],
+      "lighting": "individual",
+      "name": "Pages 7\u20138",
+      "opacity": 0.95,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.12
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.15
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.35
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p08.svg",
+          "name": "page 9"
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p09.svg",
+          "name": "page 10"
+        }
+      ],
+      "lighting": "individual",
+      "name": "Pages 9\u201310",
+      "opacity": 0.95,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.12
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.15
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.35
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p10.svg",
+          "name": "page 11"
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "p11.svg",
+          "name": "page 12"
+        }
+      ],
+      "lighting": "individual",
+      "name": "Pages 11\u201312",
+      "opacity": 0.95,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.12
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.15
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.35
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "blend-mode-specializations": [
+        {
+          "value": "multiply"
+        },
+        {
+          "appearance": "dark",
+          "value": "hard-light"
+        },
+        {
+          "appearance": "tinted",
+          "value": "plus-lighter"
+        }
+      ],
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.80000,0.82000,0.88000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.90000,0.92000,0.98000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "back-edge.svg",
+          "name": "gold edge"
+        },
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:0.97000,0.94000,0.90000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "display-p3:0.26000,0.28000,0.34000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "back-cover.svg",
+          "name": "back",
+          "opacity": 0.7
+        }
+      ],
+      "lighting": "individual",
+      "name": "Back cover",
+      "opacity": 1.0,
+      "refractivity": {
+        "depth": 0.14,
+        "enabled": true,
+        "strength": 0.23
+      },
+      "shadow-specializations": [
+        {
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.5
+          }
+        },
+        {
+          "appearance": "dark",
+          "value": {
+            "kind": "neutral",
+            "opacity": 0.4
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "kind": "layer-color",
+            "opacity": 0.5
+          }
+        }
+      ],
+      "specular": true,
+      "specular-highlight-placement-specializations": [
+        {
+          "value": "inside"
+        },
+        {
+          "appearance": "tinted",
+          "value": "outside"
+        }
+      ],
+      "translucency-specializations": [
+        {
+          "value": {
+            "enabled": true,
+            "value": 0.15
+          }
+        },
+        {
+          "appearance": "tinted",
+          "value": {
+            "enabled": true,
+            "value": 0.4
+          }
+        }
+      ]
     }
   ],
   "supported-platforms": {
