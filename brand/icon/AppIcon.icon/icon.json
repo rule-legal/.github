@@ -393,103 +393,31 @@
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
           "glass": true,
           "image-name": "p01.svg",
           "name": "page 2"
-        }
-      ],
-      "lighting": "individual",
-      "name": "Pages 2\u20132",
-      "opacity": 0.95,
-      "refractivity": {
-        "depth": 0.14,
-        "enabled": true,
-        "strength": 0.23
-      },
-      "shadow-specializations": [
-        {
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.12
-          }
         },
-        {
-          "appearance": "dark",
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.15
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "kind": "layer-color",
-            "opacity": 0.5
-          }
-        }
-      ],
-      "specular": true,
-      "specular-highlight-placement-specializations": [
-        {
-          "value": "inside"
-        },
-        {
-          "appearance": "tinted",
-          "value": "outside"
-        }
-      ],
-      "translucency-specializations": [
-        {
-          "value": {
-            "enabled": true,
-            "value": 0.35
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "enabled": true,
-            "value": 0.4
-          }
-        }
-      ]
-    },
-    {
-      "blend-mode-specializations": [
-        {
-          "value": "multiply"
-        },
-        {
-          "appearance": "dark",
-          "value": "hard-light"
-        },
-        {
-          "appearance": "tinted",
-          "value": "plus-lighter"
-        }
-      ],
-      "layers": [
         {
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
@@ -501,103 +429,31 @@
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
           "glass": true,
           "image-name": "p03.svg",
           "name": "page 4"
-        }
-      ],
-      "lighting": "individual",
-      "name": "Pages 3\u20134",
-      "opacity": 0.95,
-      "refractivity": {
-        "depth": 0.14,
-        "enabled": true,
-        "strength": 0.23
-      },
-      "shadow-specializations": [
-        {
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.12
-          }
         },
-        {
-          "appearance": "dark",
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.15
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "kind": "layer-color",
-            "opacity": 0.5
-          }
-        }
-      ],
-      "specular": true,
-      "specular-highlight-placement-specializations": [
-        {
-          "value": "inside"
-        },
-        {
-          "appearance": "tinted",
-          "value": "outside"
-        }
-      ],
-      "translucency-specializations": [
-        {
-          "value": {
-            "enabled": true,
-            "value": 0.35
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "enabled": true,
-            "value": 0.4
-          }
-        }
-      ]
-    },
-    {
-      "blend-mode-specializations": [
-        {
-          "value": "multiply"
-        },
-        {
-          "appearance": "dark",
-          "value": "hard-light"
-        },
-        {
-          "appearance": "tinted",
-          "value": "plus-lighter"
-        }
-      ],
-      "layers": [
         {
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
@@ -609,103 +465,31 @@
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
           "glass": true,
           "image-name": "p05.svg",
           "name": "page 6"
-        }
-      ],
-      "lighting": "individual",
-      "name": "Pages 5\u20136",
-      "opacity": 0.95,
-      "refractivity": {
-        "depth": 0.14,
-        "enabled": true,
-        "strength": 0.23
-      },
-      "shadow-specializations": [
-        {
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.12
-          }
         },
-        {
-          "appearance": "dark",
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.15
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "kind": "layer-color",
-            "opacity": 0.5
-          }
-        }
-      ],
-      "specular": true,
-      "specular-highlight-placement-specializations": [
-        {
-          "value": "inside"
-        },
-        {
-          "appearance": "tinted",
-          "value": "outside"
-        }
-      ],
-      "translucency-specializations": [
-        {
-          "value": {
-            "enabled": true,
-            "value": 0.35
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "enabled": true,
-            "value": 0.4
-          }
-        }
-      ]
-    },
-    {
-      "blend-mode-specializations": [
-        {
-          "value": "multiply"
-        },
-        {
-          "appearance": "dark",
-          "value": "hard-light"
-        },
-        {
-          "appearance": "tinted",
-          "value": "plus-lighter"
-        }
-      ],
-      "layers": [
         {
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
@@ -717,103 +501,31 @@
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
           "glass": true,
           "image-name": "p07.svg",
           "name": "page 8"
-        }
-      ],
-      "lighting": "individual",
-      "name": "Pages 7\u20138",
-      "opacity": 0.95,
-      "refractivity": {
-        "depth": 0.14,
-        "enabled": true,
-        "strength": 0.23
-      },
-      "shadow-specializations": [
-        {
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.12
-          }
         },
-        {
-          "appearance": "dark",
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.15
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "kind": "layer-color",
-            "opacity": 0.5
-          }
-        }
-      ],
-      "specular": true,
-      "specular-highlight-placement-specializations": [
-        {
-          "value": "inside"
-        },
-        {
-          "appearance": "tinted",
-          "value": "outside"
-        }
-      ],
-      "translucency-specializations": [
-        {
-          "value": {
-            "enabled": true,
-            "value": 0.35
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "enabled": true,
-            "value": 0.4
-          }
-        }
-      ]
-    },
-    {
-      "blend-mode-specializations": [
-        {
-          "value": "multiply"
-        },
-        {
-          "appearance": "dark",
-          "value": "hard-light"
-        },
-        {
-          "appearance": "tinted",
-          "value": "plus-lighter"
-        }
-      ],
-      "layers": [
         {
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
@@ -825,103 +537,31 @@
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
           "glass": true,
           "image-name": "p09.svg",
           "name": "page 10"
-        }
-      ],
-      "lighting": "individual",
-      "name": "Pages 9\u201310",
-      "opacity": 0.95,
-      "refractivity": {
-        "depth": 0.14,
-        "enabled": true,
-        "strength": 0.23
-      },
-      "shadow-specializations": [
-        {
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.12
-          }
         },
-        {
-          "appearance": "dark",
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.15
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "kind": "layer-color",
-            "opacity": 0.5
-          }
-        }
-      ],
-      "specular": true,
-      "specular-highlight-placement-specializations": [
-        {
-          "value": "inside"
-        },
-        {
-          "appearance": "tinted",
-          "value": "outside"
-        }
-      ],
-      "translucency-specializations": [
-        {
-          "value": {
-            "enabled": true,
-            "value": 0.35
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "enabled": true,
-            "value": 0.4
-          }
-        }
-      ]
-    },
-    {
-      "blend-mode-specializations": [
-        {
-          "value": "multiply"
-        },
-        {
-          "appearance": "dark",
-          "value": "hard-light"
-        },
-        {
-          "appearance": "tinted",
-          "value": "plus-lighter"
-        }
-      ],
-      "layers": [
         {
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
@@ -933,92 +573,20 @@
           "fill-specializations": [
             {
               "value": {
-                "solid": "display-p3:0.97000,0.98000,0.99000,1.00000"
+                "solid": "display-p3:0.97000,0.98000,0.99000,0.55000"
               }
             },
             {
               "appearance": "dark",
               "value": {
-                "solid": "display-p3:0.60000,0.62000,0.66000,1.00000"
+                "solid": "display-p3:0.80000,0.84000,0.92000,0.80000"
               }
             }
           ],
           "glass": true,
           "image-name": "p11.svg",
           "name": "page 12"
-        }
-      ],
-      "lighting": "individual",
-      "name": "Pages 11\u201312",
-      "opacity": 0.95,
-      "refractivity": {
-        "depth": 0.14,
-        "enabled": true,
-        "strength": 0.23
-      },
-      "shadow-specializations": [
-        {
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.12
-          }
         },
-        {
-          "appearance": "dark",
-          "value": {
-            "kind": "neutral",
-            "opacity": 0.15
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "kind": "layer-color",
-            "opacity": 0.5
-          }
-        }
-      ],
-      "specular": true,
-      "specular-highlight-placement-specializations": [
-        {
-          "value": "inside"
-        },
-        {
-          "appearance": "tinted",
-          "value": "outside"
-        }
-      ],
-      "translucency-specializations": [
-        {
-          "value": {
-            "enabled": true,
-            "value": 0.35
-          }
-        },
-        {
-          "appearance": "tinted",
-          "value": {
-            "enabled": true,
-            "value": 0.4
-          }
-        }
-      ]
-    },
-    {
-      "blend-mode-specializations": [
-        {
-          "value": "multiply"
-        },
-        {
-          "appearance": "dark",
-          "value": "hard-light"
-        },
-        {
-          "appearance": "tinted",
-          "value": "plus-lighter"
-        }
-      ],
-      "layers": [
         {
           "fill-specializations": [
             {
@@ -1058,7 +626,7 @@
         }
       ],
       "lighting": "individual",
-      "name": "Back cover",
+      "name": "Back cover and pages",
       "opacity": 1.0,
       "refractivity": {
         "depth": 0.14,
@@ -1069,14 +637,14 @@
         {
           "value": {
             "kind": "neutral",
-            "opacity": 0.5
+            "opacity": 0.3
           }
         },
         {
           "appearance": "dark",
           "value": {
             "kind": "neutral",
-            "opacity": 0.4
+            "opacity": 0.3
           }
         },
         {
@@ -1101,7 +669,7 @@
         {
           "value": {
             "enabled": true,
-            "value": 0.15
+            "value": 0.3
           }
         },
         {

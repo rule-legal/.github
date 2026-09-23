@@ -133,13 +133,11 @@ def light_group(name, layers, opacity=1.0):
 
 def codex(m):
     g = []   # back to front
-    g.append(photos_group("Back cover", [layer("back", "back-cover.svg", solid(m.get("back", m["cover"])), solid(m["cover_d"]), opacity=m.get("back_op")),
-                                         layer("gold edge", "back-edge.svg", solid(m["gold"]), solid(m["gold_d"]))], translucency=0.15, opacity=1.0))
-    plain = list(range(N - 1, 0, -1))
-    for k in range(0, len(plain), 2):
-        pair = plain[k:k + 2]
-        g.append(photos_group(f"Pages {pair[-1] + 1}–{pair[0] + 1}", [layer(f"page {i + 1}", f"p{i:02d}.svg", solid(m["page"]), solid(m["page_d"])) for i in pair],
-                              translucency=0.35, shadow_light=0.12, shadow_dark=0.15))
+    pa = env("PAGE_A", 0.55)   # at most four groups: the back cover and the eleven plain pages share one
+    pages = [layer(f"page {i + 1}", f"p{i:02d}.svg", solid((*m["page"], pa)), solid((0.80, 0.84, 0.92, env("PAGE_AD", 0.8)))) for i in range(N - 1, 0, -1)]
+    g.append(photos_group("Back cover and pages", [layer("back", "back-cover.svg", solid(m.get("back", m["cover"])), solid(m["cover_d"]), opacity=m.get("back_op")),
+                                                   layer("gold edge", "back-edge.svg", solid(m["gold"]), solid(m["gold_d"]))] + pages,
+                          translucency=0.3, opacity=1.0, shadow_light=0.3, shadow_dark=0.3))
     g.append(photos_group("Magic page", [layer("page", "magic.svg", solid(m["page"]), solid(m["page_d"])),
                                          layer("edge", "magic-edge.svg", solid(m["gold"]), solid(m["gold_d"]), opacity=0.7)],
                           translucency=0.35, opacity=1.0, shadow_light=0.35, shadow_dark=0.3))
