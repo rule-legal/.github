@@ -1,0 +1,137 @@
+{
+  "features": [
+    "refractivity",
+    "specular-location"
+  ],
+  "fill-specializations": [
+    {
+      "value": "system-light"
+    },
+    {
+      "appearance": "dark",
+      "value": "system-dark"
+    }
+  ],
+  "groups": [
+    {
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "display-p3:1.00000,1.00000,1.00000,1.00000"
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "section.svg",
+          "name": "cap",
+          "opacity": 0
+        }
+      ],
+      "lighting": "individual",
+      "name": "Specular",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "specular-highlight-placement": "inside"
+    },
+    {
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.92000,0.94000,1.00000,1.00000",
+                  "display-p3:0.50000,0.55000,0.72000,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1
+                  }
+                }
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "s-down.svg",
+          "name": "s"
+        }
+      ],
+      "lighting": "individual",
+      "name": "S lower",
+      "refractivity": {
+        "depth": 0.45,
+        "enabled": true,
+        "strength": 0.35
+      },
+      "shadow": {
+        "kind": "layer-color",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "specular-highlight-placement": "inside",
+      "translucency": {
+        "enabled": true,
+        "value": 0.25
+      }
+    },
+    {
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "value": {
+                "linear-gradient": [
+                  "display-p3:0.97000,0.98000,1.00000,1.00000",
+                  "display-p3:0.58000,0.63000,0.78000,1.00000"
+                ],
+                "orientation": {
+                  "start": {
+                    "x": 0.5,
+                    "y": 0
+                  },
+                  "stop": {
+                    "x": 0.5,
+                    "y": 1
+                  }
+                }
+              }
+            }
+          ],
+          "glass": true,
+          "image-name": "s-up.svg",
+          "name": "s"
+        }
+      ],
+      "lighting": "individual",
+      "name": "S upper",
+      "refractivity": {
+        "depth": 0.45,
+        "enabled": true,
+        "strength": 0.35
+      },
+      "shadow": {
+        "kind": "layer-color",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "specular-highlight-placement": "inside",
+      "translucency": {
+        "enabled": true,
+        "value": 0.25
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}
